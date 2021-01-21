@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name Capacitors_Smd0603)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_0603/Capacitors_Smd0603.lib)(options "")(descr ""))
+  (lib (name Capacitors_Smd0805)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_0805/Capacitors_Smd0805.lib)(options "")(descr ""))
+  (lib (name Resistors_Smd0603)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Resistors/Smd_0603/Resistors_Smd0603.lib)(options "")(descr ""))
+  (lib (name Diodes)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Diodes/Diodes.lib)(options "")(descr ""))
+  (lib (name Header_Socket_2_54mm)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Header_Socket_2_54mm/Header_Socket_2_54mm.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Signs/power.lib)(options "")(descr ""))
+  (lib (name Smd_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Smd_Connectors/Smd_Connectors.lib)(options "")(descr ""))
+)
