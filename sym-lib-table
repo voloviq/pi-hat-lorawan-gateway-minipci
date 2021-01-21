@@ -6,4 +6,5 @@
   (lib (name Header_Socket_2_54mm)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Header_Socket_2_54mm/Header_Socket_2_54mm.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Signs/power.lib)(options "")(descr ""))
   (lib (name Smd_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Smd_Connectors/Smd_Connectors.lib)(options "")(descr ""))
+  (lib (name Linear_Regulators)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Linear/Linear_Regulators.lib)(options "")(descr ""))
 )

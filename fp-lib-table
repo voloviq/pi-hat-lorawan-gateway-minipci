@@ -5,4 +5,5 @@
   (lib (name Diodes)(type KiCad)(uri ${KISYS3DMOD}/Diodes/Diodes.pretty)(options "")(descr ""))
   (lib (name Resistor_Smd_0603)(type KiCad)(uri ${KISYS3DMOD}/Resistors/Smd_0603/Resistor_Smd_0603.pretty)(options "")(descr ""))
   (lib (name Header_Socket_2_54mm)(type KiCad)(uri ${KISYS3DMOD}/Connectors/Header_Socket_2_54mm/Header_Socket_2_54mm.pretty)(options "")(descr ""))
+  (lib (name Linear)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty)(options "")(descr ""))
 )
