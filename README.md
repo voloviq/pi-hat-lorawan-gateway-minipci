@@ -6,3 +6,5 @@ PCB View
 ![PCB_3D](pi-hat-lorawan-gateway-3d.png)
 
 This is first prototype version and can have some connection mistakes. Please check it before use!.
+
+This update was made in lates KiCad version 5.99.
