@@ -1,110 +1,112 @@
 {
-  "Header":
-  {
-    "GenerationSoftware":
-    {
-      "Vendor":      "KiCad",
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.9-73d0e3b20d~88~ubuntu20.04.1"
+      "Version": "(5.99.0-9004-gab34d94f36)"
     },
-    "CreationDate":  "2021-01-21T22:19:02+01:00"
+    "CreationDate": "2021-02-18T22:09:59+01:00"
   },
-  "GeneralSpecs":
-  {
-    "ProjectId":
-    {
+  "GeneralSpecs": {
+    "ProjectId": {
       "Name": "pi-hat-lorawan-gateway-minipci",
       "GUID": "70692d68-6174-42d6-9c6f-726177616e2d",
       "Revision": "rev?"
     },
-    "Size":
-    {
-      "X": 85.150,
-      "Y": 56.150
+    "Size": {
+      "X": 85.15,
+      "Y": 56.155
     },
     "LayerNumber": 2,
-    "BoardThickness":  1.600
+    "BoardThickness": 1.6,
+    "Finish": "None"
   },
-  "DesignRules":
-  [
+  "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad":  0.030,
-      "PadToTrack":  0.030,
-      "TrackToTrack":  0.200,
-      "MinLineWidth":  0.254,
-      "TrackToRegion":  0.254,
-      "RegionToRegion":  0.254
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.254,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
     }
   ],
-  "FilesAttributes":
-  [
+  "FilesAttributes": [
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-F_Cu.gtl",
-      "FileFunction":  "Copper,L1,Top",
-      "FilePolarity":  "Positive"
+      "Path": "pi-hat-lorawan-gateway-minipci-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-B_Cu.gbl",
-      "FileFunction":  "Copper,L2,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "pi-hat-lorawan-gateway-minipci-B_Cu.gbl",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-F_SilkS.gto",
-      "FileFunction":  "Legend,Top",
-      "FilePolarity":  "Positive"
+      "Path": "pi-hat-lorawan-gateway-minipci-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-B_SilkS.gbo",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "pi-hat-lorawan-gateway-minipci-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-F_Mask.gts",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
+      "Path": "pi-hat-lorawan-gateway-minipci-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
     },
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-B_Mask.gbs",
-      "FileFunction":  "SolderMask,Bot",
-      "FilePolarity":  "Negative"
+      "Path": "pi-hat-lorawan-gateway-minipci-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
-      "Path":  "pi-hat-lorawan-gateway-minipci-Edge_Cuts.gm1",
-      "FileFunction":  "Profile",
-      "FilePolarity":  "Positive"
+      "Path": "pi-hat-lorawan-gateway-minipci-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
     }
   ],
-  "MaterialStackup":
-  [
+  "MaterialStackup": [
     {
-      "Type":  "Legend",
-      "Notes":  "Layer F.SilkS"
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer F.Cu"
+      "Type": "SolderMask",
+      "Name": "Top Solder Mask"
     },
     {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L1/L2"
+      "Type": "Copper",
+      "Name": "F.Cu"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer B.Cu"
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer B.Mask"
+      "Type": "Copper",
+      "Name": "B.Cu"
     },
     {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
+      "Type": "SolderMask",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
     }
   ]
 }
