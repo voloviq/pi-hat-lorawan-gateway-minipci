@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(5.99.0-9004-gab34d94f36)"
+      "Version": "(5.99.0-9801-g46d71f0d23)"
     },
-    "CreationDate": "2021-02-18T22:09:59+01:00"
+    "CreationDate": "2021-03-17T00:26:51+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 85.15,
-      "Y": 56.155
+      "X": 51.254,
+      "Y": 85.254
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.03,
+      "PadToTrack": 0.03,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.254,
       "TrackToRegion": 0.254,
@@ -80,24 +80,31 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
