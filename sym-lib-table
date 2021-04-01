@@ -7,4 +7,5 @@
   (lib (name "power")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Power_Signs/power.kicad_sym")(options "")(descr ""))
   (lib (name "Smd_Connectors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connectors/Smd_Connectors/Smd_Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "Linear_Regulators")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Linear/Linear_Regulators.kicad_sym")(options "")(descr ""))
+  (lib (name "Goldpin_2_54mm")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Goldpins/Goldpin_2.54mm/Goldpin_2_54mm.kicad_sym")(options "")(descr ""))
 )

@@ -7,4 +7,5 @@
   (lib (name "Header_Socket_2_54mm")(type "KiCad")(uri "${KISYS3DMOD}/Connectors/Header_Socket_2_54mm/Header_Socket_2_54mm.pretty")(options "")(descr ""))
   (lib (name "Linear")(type "KiCad")(uri "${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty")(options "")(descr ""))
   (lib (name "Symbols")(type "KiCad")(uri "${KISYS3DMOD}/Symbols/Symbols.pretty")(options "")(descr ""))
+  (lib (name "Goldpin")(type "KiCad")(uri "${KISYS3DMOD}/Goldpin/Discrete_Goldpin/Goldpin.pretty")(options "")(descr ""))
 )

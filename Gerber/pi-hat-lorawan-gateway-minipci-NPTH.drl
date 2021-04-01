@@ -1,8 +1,8 @@
 M48
-; DRILL file {KiCad (5.99.0-9801-g46d71f0d23)} date 03/17/21 00:26:48
+; DRILL file {KiCad 5.99.0-unknown-140f4a8d21~125~ubuntu20.04.1} date Thu Apr  1 23:04:01 2021
 ; FORMAT={-:-/ absolute / inch / decimal}
-; #@! TF.CreationDate,2021-03-17T00:26:48+01:00
-; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-9801-g46d71f0d23)
+; #@! TF.CreationDate,2021-04-01T23:04:01+02:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,5.99.0-unknown-140f4a8d21~125~ubuntu20.04.1
 ; #@! TF.FileFunction,NonPlated,1,2,NPTH
 FMAT,2
 INCH
@@ -16,12 +16,11 @@ T3C0.1024
 G90
 G05
 T1
-; not plated pad hole
-X7.7736Y-3.4757
+X5.3311Y-3.5355
 T2
-X8.7579Y-3.4757
+X6.3154Y-3.5355
 T3
-X7.7894Y-5.3674
-X8.7421Y-5.3674
+X5.3469Y-5.4273
+X6.2996Y-5.4273
 T0
 M30
