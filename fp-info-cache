@@ -1,4 +1,4 @@
-575641089744599
+577370359940572
 Capacitors_Smd_0603
 1.2pF_GRM0335C1H1R2WA01D
 muRata SMD SM0603
@@ -1282,6 +1282,13 @@ Through hole socket strip THT 1x06 2.54mm single row
 34
 Header_Socket_2_54mm
 Header_Socket_2x20x2_54mm
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x06 2.54mm single row
+0
+40
+40
+Header_Socket_2_54mm
+Header_Socket_Vertical_2x20x2_54mm
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x06 2.54mm single row
 0
